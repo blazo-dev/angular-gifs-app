@@ -1,0 +1,8 @@
+<div class="row">
+  <div class="card__list" *ngIf="gifs.length > 0">
+    <gifs-card
+      *ngFor="let gif of gifs; trackBy: trackByFn"
+      [gif]="gif"
+    ></gifs-card>
+  </div>
+</div>

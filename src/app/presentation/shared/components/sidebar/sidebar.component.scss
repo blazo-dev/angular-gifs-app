@@ -1,0 +1,13 @@
+.sidebar {
+  height: 100vh;
+  min-height: 100%;
+
+  &__tag {
+    display: block;
+    width: min(70px, 150px);
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
